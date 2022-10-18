@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.heading {
+  margin: 1.5em 0;
+  font-family: "PT", Serif;
+}
+.heading-2 {
+  margin-bottom: 0.5em;
+}
+.description {
+  font-size: 0.75rem;
+  margin-top: 0;
+  max-width: 40ch;
+}
+.grid {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+.image {
+  width: 100%;
+}
+h6 {
+  margin: 0.5em 0;
+}
+.employee2,
+.employee4,
+.employee6 {
+  margin-top: 2.5em;
+}
+.employee-post {
+  writing-mode: vertical-rl;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.row {
+  display: flex;
+}
+.user {
+  width: 100%;
+  margin-top: 5em;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  color: grey;
+}
+@media (min-width: 50rem) {
+  .h1 +.h2{
+    margin: 2.5em 1em 1em 13em;
+  }
+  .container {
+    max-width: 70%;
+    margin-inline: auto;
+  }
+  .introduction {
+    display: flex;
+    margin-bottom: 4em;
+  }
+  .h2 {
+    margin-left: 4em;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4em;
+    row-gap: 4em;
+  }
+  .employee-post {
+    font-size: 0.75rem;
+  }
+  h6 {
+    font-size: 1.12rem;
+  }
+  .employee5, .employee2 {
+    margin-top: 3em;
+      
+  }  
+   .employee4, .employee6{
+    margin-top: 0;
+  }
+}
